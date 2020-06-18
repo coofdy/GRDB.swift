@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "GRDB",
     products: [
-        .library(name: "GRDB", targets: ["GRDB"]),
+        .library(name: "GRDB", type: .dynamic, targets: ["GRDB"]),
     ],
     dependencies: [
     ],
